@@ -1,0 +1,80 @@
+{
+  "LogisticRegression": {
+    "confusion_matrix": [
+      [
+        41,
+        1
+      ],
+      [
+        1,
+        71
+      ]
+    ],
+    "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.98      0.98      0.98        42\n           1       0.99      0.99      0.99        72\n\n    accuracy                           0.98       114\n   macro avg       0.98      0.98      0.98       114\nweighted avg       0.98      0.98      0.98       114\n"
+  },
+  "DecisionTree": {
+    "confusion_matrix": [
+      [
+        39,
+        3
+      ],
+      [
+        7,
+        65
+      ]
+    ],
+    "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.85      0.93      0.89        42\n           1       0.96      0.90      0.93        72\n\n    accuracy                           0.91       114\n   macro avg       0.90      0.92      0.91       114\nweighted avg       0.92      0.91      0.91       114\n"
+  },
+  "KNN": {
+    "confusion_matrix": [
+      [
+        39,
+        3
+      ],
+      [
+        0,
+        72
+      ]
+    ],
+    "classification_report_text": "              precision    recall  f1-score   support\n\n           0       1.00      0.93      0.96        42\n           1       0.96      1.00      0.98        72\n\n    accuracy                           0.97       114\n   macro avg       0.98      0.96      0.97       114\nweighted avg       0.97      0.97      0.97       114\n"
+  },
+  "NaiveBayes": {
+    "confusion_matrix": [
+      [
+        38,
+        4
+      ],
+      [
+        3,
+        69
+      ]
+    ],
+    "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.93      0.90      0.92        42\n           1       0.95      0.96      0.95        72\n\n    accuracy                           0.94       114\n   macro avg       0.94      0.93      0.93       114\nweighted avg       0.94      0.94      0.94       114\n"
+  },
+  "RandomForest": {
+    "confusion_matrix": [
+      [
+        39,
+        3
+      ],
+      [
+        3,
+        69
+      ]
+    ],
+    "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.93      0.93      0.93        42\n           1       0.96      0.96      0.96        72\n\n    accuracy                           0.95       114\n   macro avg       0.94      0.94      0.94       114\nweighted avg       0.95      0.95      0.95       114\n"
+  },
+  "XGBoost": {
+    "confusion_matrix": [
+      [
+        38,
+        4
+      ],
+      [
+        1,
+        71
+      ]
+    ],
+    "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      0.90      0.94        42\n           1       0.95      0.99      0.97        72\n\n    accuracy                           0.96       114\n   macro avg       0.96      0.95      0.95       114\nweighted avg       0.96      0.96      0.96       114\n"
+  }
+}
